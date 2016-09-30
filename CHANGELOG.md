@@ -1,3 +1,9 @@
+## 1.2.0
+
+- Plugins are no longer required to have a .xcodeproj filename matching their `name` in `packages.json` (#471)
+- Support GIF image on screenshot preview (#432)
+- Support for Xcode 8 (#488, see also #475 on why it might not work for you)
+
 ## 1.1.19
 
 - Fix a crash caused by invalid downloaded image data being displayed anyway. #320 #334 #335 #479
